@@ -4,6 +4,12 @@
 + A 2-wheel differential drive robot with laser scanner mounted on the top is used to map the Willow garage world.
 + The robot is controlled through keyboard using arrow keys.
 
+## Pre-requisites installation:
+
++ `sudo apt-get install ros-melodic-navigation`
+
++ `sudo apt-get install ros-melodic-gmapping`
+
 ## Usage:
 
 1. Nagivate to the **src** folder of your catkin workspace and execute:
