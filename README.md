@@ -12,13 +12,12 @@
 + `$ cd ../`
 + `$ catkin_make`
 
+
 2. Run the following commands in given order in different terminals:
 
 + `$ roslaunch pkg_2d_nav_robot diff_wheeled_gazebo_full.launch`
   
 + `$ roslaunch pkg_2d_nav_robot gmapping.launch`
-  
-+ `$ roslaunch pkg_2d_nav_robot keyboard_teleop.launch`
 
 
 3. Launch **RViz**:
@@ -27,6 +26,17 @@
 
 + Go to **Add** --> **By topic** --> under `/map` select **Map** and click **Ok**
 + Again, go to **Add** --> **By display type** --> **RobotModel** and click **Ok**
+
+
+4. Play with your robot !
+
++ `$ roslaunch pkg_2d_nav_robot keyboard_teleop.launch`
+
+5. To save your map, execute:
+
++ `$ rosrun map_server map_saver -f my_map`
+
+Here, `my_map` is the name of the save file and will be saved in your **Home** directory
 
 ![](./assets/robot.png)
 ![](./assets/willow.png)
