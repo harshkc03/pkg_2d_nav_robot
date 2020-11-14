@@ -28,3 +28,6 @@
 + Go to **Add** --> **By topic** --> under `/map` select **Map** and click **Ok**
 + Again, go to **Add** --> **By display type** --> **RobotModel** and click **Ok**
 
+![](./assets/robot.png)
+![](./assets/willow.png)
+![](./assets/mapping.png)
