@@ -8,7 +8,7 @@
 
 1. Nagivate to the **src** folder of your catkin workspace and execute:
 
-+ `$ https://github.com/harshkc03/pkg_2d_nav_robot.git`
++ `$ git clone https://github.com/harshkc03/pkg_2d_nav_robot.git`
 + `$ cd ../`
 + `$ catkin_make`
 
