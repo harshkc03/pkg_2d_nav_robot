@@ -45,6 +45,7 @@
 Here, `my_map` is the name of the save file and will be saved in your **Home** directory
 
 **Note:** If you get an error like:
+
 ![](./assets/error.png)
 
 Then source your **setup.bash** file like:
