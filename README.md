@@ -44,6 +44,15 @@
 
 Here, `my_map` is the name of the save file and will be saved in your **Home** directory
 
+**Note:** If you get an error like:
+![](./assets/error.png)
+
+Then source your **setup.bash** file like:
+
++ `$ source ~/workshop/devel/setup.bash`
+
+Or alternatively, add the above line at the end of your **.bashrc** file
+
 ![](./assets/robot.png)
 ![](./assets/willow.png)
 ![](./assets/mapping.png)
